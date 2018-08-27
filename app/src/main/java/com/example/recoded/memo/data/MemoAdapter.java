@@ -15,6 +15,7 @@ import com.example.recoded.memo.R;
 import java.util.List;
 
 public class MemoAdapter extends ArrayAdapter<Memo> {
+
     public MemoAdapter(@NonNull Context context, List<Memo> objects) {
         super(context, 0, objects);
     }
