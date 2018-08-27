@@ -21,7 +21,7 @@ public class MemoAdapter extends ArrayAdapter<Memo> {
 
     @NonNull
     @Override
-    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
+    public View getView(int position, @Nullable V iew convertView, @NonNull ViewGroup parent) {
         if (convertView == null) {
             convertView = LayoutInflater.from(parent.getContext()).inflate(R.layout.memo_list_item, parent, false);
         }
